@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMain">
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.elad.hit.mooover.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_packingFragment"
+            app:destination="@id/packingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/packingFragment"
+        android:name="com.elad.hit.mooover.FragmentPacking"
+        android:label="fragment_packing"
+        tools:layout="@layout/fragment_packing" >
+        <action
+            android:id="@+id/action_packingFragment_to_finish"
+            app:destination="@id/finish" />
+    </fragment>
+    <fragment
+        android:id="@+id/finish"
+        android:name="com.elad.hit.mooover.Finish"
+        android:label="fragment_finish"
+        tools:layout="@layout/fragment_finish">
+        <argument
+            android:name="cart_items"
+            app:argType="com.elad.hit.mooover.CartItem[]" />
+    </fragment>
+</navigation>

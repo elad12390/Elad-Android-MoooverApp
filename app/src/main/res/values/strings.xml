@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">Moover</string>
+    <string name="cow_title">Cow</string>
+
+    <string name="add_item_form_title">Add Item</string>
+    <string name="add_item_item_select_hint">Select an item</string>
+    <string name="add_item_subtract_btn_content_description">Subtract</string>
+    <string name="add_item_item_count_default_value">1</string>
+    <string name="add_item_submit_add_btn_text">Add</string>
+    <string name="add_item_clear_btn_text">Clear form</string>
+    <string name="add_item_width_input_hint">Width (in cm)*</string>
+    <string name="add_item_height_input_hint">Height (in cm)*</string>
+    <string name="add_item_width_default_value" translatable="false">100</string>
+    <string name="add_item_height_default_value" translatable="false">100</string>
+    <string name="add_item_required_error_string">Field is required</string>
+
+    <string name="add_item_atleast_one_cart_item_required">You must add at least one item to your cart!</string>
+    <string name="add_item_max_items_allowed" translatable="false">56</string>
+    <string name="add_item_max_items_bottom_row" translatable="false">32</string>
+    <string name="add_item_max_items_middle_row" translatable="false">16</string>
+    <string name="add_item_max_items_top_row" translatable="false">8</string>
+
+    <string name="add_item_max_items_error_title">Error</string>
+    <string name="add_item_item_type_required_error">Item type is required</string>
+
+    <string name="add_item_dropdown_default_string" translatable="false">0</string>
+    <string name="add_item_dropdown_selected_string">Selected %s</string>
+    <string name="add_item_add_item_count_button_content_description">Add</string>
+
+    <string name="share_csv_filename" translatable="false">stock</string>
+    <string-array name="add_item_dropdown_options">
+        <item>Chair</item>
+        <item>Sofa</item>
+        <item>Bed</item>
+    </string-array>
+    <string name="home_screen_welcome_message"><b>Hi!</b> Welcome to <b>Moover</b> An application To help you and us to deliver your items as fast as we can with less rides</string>
+    <string name="start_packing">Start Packing</string>
+    <string name="go_to_finish_page_txt">Click here to finish</string>
+    <string name="total">Total: %.2f$</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="almost_done">Almost done!</string>
+    <string name="please_select_the_delivery_date_and_time">Please select the delivery date and time</string>
+    <string name="send_to_representive">Send to representive in whatsapp</string>
+    <string name="set_date_s_time_s">Set Date as %s and Time as %s</string>
+    <string name="exported_date_s_time_s" translatable="false">Shipping date requested is %s %s</string>
+    <string name="date_s_time_s">The shipment requested date is: %s and time: %s</string>
+    <string name="date_s_time_s_required">In order to proceed you must select a date and time</string>
+</resources>
